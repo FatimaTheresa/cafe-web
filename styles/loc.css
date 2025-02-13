@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(141, 131, 94);
+    color: rgb(52, 44, 33);
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+h3{
+    font-size: 40px ;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(52, 44, 33) ;
+    font-weight: bold;
+    font-size: 150% ;
+    padding: 8px 12px;
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out; 
+    display: inline-block;
+    
+
+}
+nav a:hover {
+    background-color:  rgba(90, 75, 56, 0.529);
+    transform: translateY(7px);
+    
+}
+.opening-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.opening-hours h3 {
+    font-size: 35px;
+    
+}
+.hours-table {
+    width: 100%;
+    text-align: left;
+}
+
+.hours-table td {
+    padding: 13px  30px;
+    font-size: 20px;
+}
+
+.hours-table td:first-child {
+    font-weight: bold;
+}
+
+.address h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.address p {
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+
+
+
+

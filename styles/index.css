@@ -1,8 +1,43 @@
+body {
+    background-color: rgb(141, 131, 94);
+    color: rgb(52, 44, 33);
+}
 h1 {
     font-size: 350%;
     text-align: center;
+    
 }
 
 h2 {
-    color: red;
+    text-align: center;
+    font-size: 220%;
+}
+img{
+    display:block ;
+    margin:auto;
+    width:1500px;
+    height: 700px;
+    object-fit: cover;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(52, 44, 33) ;
+    font-weight: bold;
+    font-size: 150% ;
+    padding: 8px 12px;
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out; 
+    display: inline-block;
+    
+
+}
+
+nav a:hover {
+    background-color: rgba(90, 75, 56, 0.529);
+    transform: translateY(7px);
+    
 }
