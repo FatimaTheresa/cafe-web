@@ -1,6 +1,13 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 body {
-    background-color: rgb(141, 131, 94);
+    background-color: #F2D4C2;
     color: rgb(52, 44, 33);
+    width: 80%;
+    margin: auto;
 }
 h1 {
     font-size: 350%;
@@ -37,7 +44,7 @@ nav a{
 }
 
 nav a:hover {
-    background-color: rgba(90, 75, 56, 0.529);
+    background-color: rgba(131, 106, 74, 0.529);
     transform: translateY(7px);
     
 }

@@ -1,6 +1,8 @@
 body {
-    background-color: rgb(141, 131, 94);
+    background-color:#F2D4C2;
     color: rgb(52, 44, 33);
+    width: 80%;
+    margin: auto;
 }
 h1{
     text-align: center;
@@ -27,10 +29,11 @@ nav a{
 
 }
 nav a:hover {
-    background-color:  rgba(90, 75, 56, 0.529);
+    background-color:  rgba(131, 106, 74, 0.529);
     transform: translateY(7px);
     
 }
+
 .opening-hours {
     display: flex;
     flex-direction: column;
@@ -42,7 +45,9 @@ nav a:hover {
     max-width: 400px;
     margin: 20px auto;
 }
-
+a{ 
+    color:  rgb(52, 44, 33);
+}
 .opening-hours h3 {
     font-size: 35px;
     
@@ -67,10 +72,11 @@ nav a:hover {
 }
 
 .address p {
-    font-size: 23px;
     line-height: 1.5;
 }
-
+div{
+    font-size: 25px;
+}
 
 
 
